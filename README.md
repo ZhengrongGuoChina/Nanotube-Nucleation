@@ -40,30 +40,6 @@ where **(n, m)** is the chiral vector of the resulting nanotube.
 
 > **Implementation Note:** Pentagon positions are specified in rotational sub-lattice coordinates, representing topological relationships. For computational efficiency, all nᵢ-values must be positive, while mᵢ-values may be positive or negative. This convention enables systematic discovery of all cap configurations while maintaining computational tractability.
 
-## Installation
-
-### Prerequisites
-
-- **C++20** compatible compiler
-- **Qt 6.x** (Qt6::Core, Qt6::Gui, Qt6::Widgets, Qt6::OpenGL, Qt6::OpenGLWidgets)
-- **OpenGL** development libraries
-- **CMake 3.16+**
-
-### Build Instructions
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/nanotube-nucleation.git
-cd nanotube-nucleation
-
-# Create build directory
-mkdir build && cd build
-
-# Configure and build
-cmake ..
-cmake --build .
-```
-
 ## Usage
 
 ### Basic Workflow
